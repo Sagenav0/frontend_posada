@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    transform: all 0.3s ease-in-out;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Objetos */
+
+
+main#inicio {
+    background-color: transparent;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+}
+
+
+
+
+/* Clases */
+
+.caja {
+    border-radius: 15px;
+    height: 600px;
+    padding: 36px;
+    width: 400px;
+}
+
+
+.campo {
+    background-color: transparent;
+    border: none;
+    border-radius: 32px;
+    margin: 20px 0;
+    font-size: 15px;
+    padding: 15px;
+    width: 95%;
+}
+
+.prueba {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+    .padre {
+        background-color: #ffffff;
+        box-shadow: 9px 9px 16px #E8D9CE,
+                    -9px -9px 16px #E8D9CE;
+    }
+
+        .padre .campo {
+            box-shadow: inset 3px 3px 9px #ffffff,
+                        inset -3px -3px 9px #E8D9CE;
+            color: #666;
+        }
+
+.texto {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    margin: 20px;
+}
+
+#titulo{
+    padding: 0px 0px 50px 0px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botones a {
+    margin-top: 50px; /* Ajusta el valor según tus preferencias */
+}
+
+.caja_botones {
+    position: relative;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+    padding: 10px 18px;
+}
+
+.continuar{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 4px 4px 9px #E8D9CE,
+                -4px -4px 9px #E8D9CE;
+}
+
+.regresar {
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 4px 4px 9px #bbb,
+                -4px -4px 9px #fff;
+}
