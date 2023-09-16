@@ -30,12 +30,6 @@ main#inicio {
 
 /* Clases */
 
-.caja {
-    border-radius: 15px;
-    height: 600px;
-    padding: 36px;
-    width: 400px;
-}
 
 
 .campo {
@@ -45,9 +39,15 @@ main#inicio {
     margin: 20px 0;
     font-size: 15px;
     padding: 15px;
-    width: 95%;
+    width: 95%  ;
 }
 
+.caja {
+    border-radius: 15px;
+    height: 600px;
+    padding: 36px;
+    width: 400px;
+}
 .prueba {
     background-color: #ffffff;
     margin: 0;
@@ -78,20 +78,20 @@ main#inicio {
     margin: 20px;
 }
 
+
 #titulo{
     padding: 0px 0px 50px 0px;
 }
 
-.botones {
+#botones {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .caja_botones {
-    position: relative;
+
     outline: none;
-    text-align: center;
     text-decoration: none;
     color: #777;
     padding: 10px 18px;
