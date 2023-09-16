@@ -88,10 +88,6 @@ main#inicio {
     align-items: center;
 }
 
-.botones a {
-    margin-top: 50px; /* Ajusta el valor según tus preferencias */
-}
-
 .caja_botones {
     position: relative;
     outline: none;
